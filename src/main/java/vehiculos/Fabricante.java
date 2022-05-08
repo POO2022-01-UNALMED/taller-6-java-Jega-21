@@ -14,7 +14,7 @@ public class Fabricante {
 	public Fabricante(String nombre, Pais pais) {
 		this.nombre = nombre;
 		this.pais = pais;
-		this.cantidad ++;
+		this.cantidad++;
 		Fabricante.fabricantes.add(this);
 	}
 	

@@ -12,7 +12,7 @@ public class Pais {
 	// Constructor.
 	public Pais(String nombre) {
 		this.nombre = nombre;
-		this.cantidad ++;
+		this.cantidad++;
 		Pais.paises.add(this);
 	}
 	

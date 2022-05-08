@@ -13,7 +13,7 @@ public class Vehiculo {
 	private int peso;
 	private String traccion;
 	private Fabricante fabricante;
-	public static int cantVehiculos;
+	public static int cantidadVehiculos;
 	public static ArrayList<Vehiculo> vehiculos;
 	static {
 		vehiculos = new ArrayList<>();
@@ -29,7 +29,7 @@ public class Vehiculo {
 		this.traccion = traccion;
 		this.fabricante = fabricante;
 		vehiculos.add(this);
-		cantVehiculos ++;
+		cantidadVehiculos++;
 	}
 	
 	// Getters and Setters.
@@ -82,10 +82,10 @@ public class Vehiculo {
 		this.fabricante = fabricante;
 	}
 	public static int getCantVehiculos() {
-		return cantVehiculos;
+		return cantidadVehiculos;
 	}
-	public static void setCantVehiculos(int cantVehiculos) {
-		Vehiculo.cantVehiculos = cantVehiculos;
+	public static void setCantVehiculos(int cantidadVehiculos) {
+		Vehiculo.cantidadVehiculos = cantidadVehiculos;
 	}
 	
 	// Metodos.
